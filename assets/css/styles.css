@@ -1,0 +1,61 @@
+/* format carte */
+.card {
+  max-width: 170px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: small;
+  padding: 10px;
+}
+
+.title {
+  color: rgb(229, 14, 75);
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(104, 5, 243);
+ 
+}
+a:hover{
+  background-color: rgb(9, 171, 241)
+}
+
+body {
+  background: linear-gradient(to right, rgb(239, 167, 119), pink);
+}
+
+/* présentation */
+.prez {
+text-align: center;
+padding: 30px;
+}
+
+h4 {
+text-align: center;
+font-family: 'Fairies';
+src: url(../fonts/Fairies.otf);
+color: rgb(8, 7, 8);
+}
+
+/* video */
+.project {
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around; /* Pour centrer verticalement */
+}
+
+.project iframe {
+margin: 0 auto;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  background-color: white;
+}
